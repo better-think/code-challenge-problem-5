@@ -1,0 +1,23 @@
+{
+  "name": "pet-shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "compile": "npx truffle compile",
+    "deploy": "npx truffle deploy",
+    "deploy:test": "npx truffle deploy --network bsctest",
+    "test": "node ./test/test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^2.1.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
